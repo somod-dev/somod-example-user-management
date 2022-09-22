@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=../node_modules/somod-schema/schemas/ui-config/index.json
+
+env:
+  NEXT_PUBLIC_USER_API_URL:
+    SOMOD::Parameter: apigateway.http.endpoint
