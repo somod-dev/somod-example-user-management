@@ -17,7 +17,8 @@
     "deploy": "npx somod deploy",
     "start": "npx somod serve",
     "pretest": "npm run build",
-    "test": "echo 'No Tests defined'"
+    "test": "echo 'No Tests defined'",
+    "postversion": "git push --follow-tags"
   },
   "author": "Raghavendra K R <raghavendra@sodaru.com>",
   "license": "MIT",
