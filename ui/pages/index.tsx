@@ -14,7 +14,7 @@ const GettingStartedHome: NextComponentType = () => {
       <Typography variant="h1">User Management</Typography>
       <Typography variant="h4">
         A Getting Started Project from{" "}
-        <Link href="https://somod.sodaru.com" target="_blank">
+        <Link href="https://somod.dev" target="_blank">
           SOMOD
         </Link>
       </Typography>

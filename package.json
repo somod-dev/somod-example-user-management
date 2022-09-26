@@ -11,8 +11,8 @@
   "somod": "1.14.0",
   "scripts": {
     "eslint": "npx eslint ./ --no-error-on-unmatched-pattern",
-    "prebuild": "npm run prettier && npm run eslint",
     "prettier": "npx prettier --check --ignore-unknown --no-error-on-unmatched-pattern ./**/*",
+    "prebuild": "npm run prettier && npm run eslint",
     "build": "npx somod build",
     "deploy": "npx somod deploy",
     "start": "npx somod serve",
@@ -44,7 +44,7 @@
     "@mui/material": "^5.10.6",
     "@types/aws-lambda": "^8.10.104",
     "cross-fetch": "^3.1.5",
-    "somod-http-api-gateway": "^1.1.0",
+    "somod-http-api-gateway": "^1.2.0",
     "uuid": "^8.3.2"
   }
 }

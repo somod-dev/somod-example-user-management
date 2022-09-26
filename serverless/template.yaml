@@ -94,22 +94,3 @@ Resources:
               SOMOD::Ref:
                 resource: BaseHttpApi
                 module: somod-http-api-gateway
-
-  EnableCORSOnBaseHttpApi:
-    Type: AWS::Serverless::HttpApi
-    SOMOD::Extend:
-      module: somod-http-api-gateway
-      resource: BaseHttpApi
-    Properties:
-      CorsConfiguration:
-        AllowHeaders:
-          - authorization
-          - content-type
-          - content-length
-        AllowMethods:
-          - GET
-          - POST
-          - PUT
-          - DELETE
-        AllowOrigins:
-          - http://localhost:3000
