@@ -7,7 +7,7 @@
     "module": "ES6",
     "rootDir": "./",
     "lib": [
-      "ESNext"
+      "ESNext", "DOM", "DOM.Iterable"
     ],
     "moduleResolution": "Node",
     "esModuleInterop": true,

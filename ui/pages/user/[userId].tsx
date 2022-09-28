@@ -8,7 +8,6 @@ import {
   Switch,
   Typography
 } from "@mui/material";
-import fetch from "cross-fetch";
 import { NextComponentType } from "next";
 import NextLink from "next/link";
 import { useRouter } from "next/router";

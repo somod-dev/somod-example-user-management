@@ -8,7 +8,7 @@
     "build"
   ],
   "sideEffects": false,
-  "somod": "1.14.0",
+  "somod": "1.15.0",
   "scripts": {
     "eslint": "npx eslint ./ --no-error-on-unmatched-pattern",
     "prettier": "npx prettier --check --ignore-unknown --no-error-on-unmatched-pattern ./**/*",
@@ -28,7 +28,7 @@
     "eslint-config-next": "^12.3.1",
     "eslint-config-sodaru": "^1.0.0",
     "prettier-config-sodaru": "^1.0.0",
-    "somod": "^1.14.0"
+    "somod": "^1.15.0"
   },
   "prettier": "prettier-config-sodaru",
   "eslintConfig": {
@@ -43,7 +43,6 @@
     "@mui/icons-material": "^5.10.6",
     "@mui/material": "^5.10.6",
     "@types/aws-lambda": "^8.10.104",
-    "cross-fetch": "^3.1.5",
     "somod-http-api-gateway": "^1.2.0",
     "uuid": "^8.3.2"
   }
