@@ -8,7 +8,7 @@
     "build"
   ],
   "sideEffects": false,
-  "somod": "1.15.0",
+  "somod": "1.15.3",
   "scripts": {
     "eslint": "npx eslint ./ --no-error-on-unmatched-pattern",
     "prettier": "npx prettier --check --ignore-unknown --no-error-on-unmatched-pattern ./**/*",
@@ -28,7 +28,7 @@
     "eslint-config-next": "^12.3.1",
     "eslint-config-sodaru": "^1.0.0",
     "prettier-config-sodaru": "^1.0.0",
-    "somod": "^1.15.0"
+    "somod": "^1.15.3"
   },
   "prettier": "prettier-config-sodaru",
   "eslintConfig": {
