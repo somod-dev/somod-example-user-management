@@ -1,6 +1,6 @@
 {
   "name": "somod-example-user-management",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "module": "build/lib/index.js",
   "typings": "build/lib/index.d.ts",
